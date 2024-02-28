@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1>The New York Times Best Sellers</h1>
+            </div>
+          </div>
+    </header>
+    <div id="controls">
+        <input type="date" id="date-picker">
+        <select id="genre-picker">
+            <option>Pick a book category</option>
+            <option value="combined-print-and-e-book-fiction">Combined Print & E-Book Fiction</option>
+            <option value="combined-print-and-e-book-nonfiction">Combined Print & E-Book Nonfiction</option>
+            <option value="hardcover-fiction">Hardcover Fiction</option>
+            <option value="hardcover-nonfiction">Hardcover Nonfiction</option>
+            <option value="trade-fiction-paperback">Trade Fiction Paperback</option>
+            <option value="paperback-nonfiction">Paperback Nonfiction</option>
+            <option value="advice-how-to-and-miscellaneous">Advice, How-To & Miscellaneous</option>
+            <option value="childrens-middle-grade-hardcover">Children's Middle Grade Hardcover</option>
+            <option value="picture-books">Picture Books</option>
+            <option value="series-books">Children’s Series</option>
+            <option value="young-adult-hardcover">Young Adult Hardcover</option>
+            <option value="audio-fiction">Audio Fiction</option>
+            <option value="audio-nonfiction">Audio Nonfiction</option>
+            <option value="business-books">Business</option>
+            <option value="graphic-books-and-manga">Graphic Books and Manga</option>
+            <option value="mass-market-monthly">Mass Market</option>
+            <option value="middle-grade-paperback-monthly">Middle Grade Paperback</option>
+            <option value="young-adult-paperback-monthly">Young Adult Paperback</option>
+        </select>
+        <button id="fetch-books">Hämta böcker</button>
+    </div>
+    <div id="slideshowcontainer">
+        <!-- Böckerna kommer att listas här -->
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+* {box-sizing:border-box}
+
+body {
+    margin: 0;
+}
+
+
+/* The hero image */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/photo-1596123068611-c89d922a0f0a.avif");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative; /* Ändrat till relative för att göra hero-text absolut i förhållande till denna */
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    color: white;
+    position: absolute; /* Ändrat till absolute */
+    top: 50%; /* Centrera vertikalt */
+    left: 50%; /* Centrera horisontellt */
+    transform: translate(-50%, -50%); /* Justera för att centrera exakt */
+    width: 100%; /* Se till att texten kan ta upp hela bredden om nödvändigt */
+  }
+  
+  h1 {
+      font-family: 'Times New Roman';
+      font-weight: 600;
+      font-size: 68px;
+  }
+  
+
+/* Slideshow container */
+#slideshowcontainer {
+  max-width: 600px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    margin: auto;
+    display: flex;
+    height: auto;
+    width: 30%;
+    min-width: 200px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: 1000;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
