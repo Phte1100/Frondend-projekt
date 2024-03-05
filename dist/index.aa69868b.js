@@ -12,7 +12,8 @@ document.getElementById("fetch-books").addEventListener("click", async ()=>{
         const data = await response.json();
         displayBooks(data.results.books);
     } catch (error) {
-        console.error("Det gick inte att h\xe4mta b\xf6ckerna", error);
+        document.getElementById("error-message").innerText = "Det gick inte att h\xe4mta b\xf6ckerna. F\xf6rs\xf6k igen senare.";
+        document.querySelector(".loader").style.display = "none";
     } finally{
         // Dölj laddningsanimationen när processen är klar
         document.querySelector(".loader").style.display = "none";

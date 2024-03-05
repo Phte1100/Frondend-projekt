@@ -114,7 +114,7 @@
 67C:\Users\46722\Desktop\Frondend-projekt\node_modules\dotenv\LICENSE133530658346288892 0
 90C:\Users\46722\Desktop\Frondend-projekt\node_modules\@swc\helpers\_\_sliced_to_array_loose133530658360011971 1
 73C:\Users\46722\Desktop\Frondend-projekt\node_modules\term-size\index.d.ts133530658348709436 0
-54C:\Users\46722\Desktop\Frondend-projekt\src\index.html133541231656616241 0
+54C:\Users\46722\Desktop\Frondend-projekt\src\index.html133541244761873900 0
 122C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic.js133530658354380708 0
 46C:\Users\46722\Desktop\Frondend-projekt\src\js133534214706840394 1
 90C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\lib\restructure\prepare\index.js133530658355650998 0
@@ -156,7 +156,7 @@
 84C:\Users\46722\Desktop\Frondend-projekt\node_modules\utility-types\dist\index.js.map133530658348639421 0
 80C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\graph\src\BitSet.js133541163606378921 0
 78C:\Users\46722\Desktop\Frondend-projekt\node_modules\semver\functions\major.js133530658351280010 0
-54C:\Users\46722\Desktop\Frondend-projekt\src\js\main.js133541146255722687 0
+54C:\Users\46722\Desktop\Frondend-projekt\src\js\main.js133541247393803344 0
 88C:\Users\46722\Desktop\Frondend-projekt\node_modules\lmdb\dependencies\lz4\lib\lz4file.h133530658356851260 0
 75C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-svgo133541163666702452 1
 83C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\node_modules\css-tree\cjs133530658357151324 1
@@ -5255,7 +5255,7 @@
 93C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\utils\src\dependency-location.js133541163592985922 0
 73C:\Users\46722\Desktop\Frondend-projekt\node_modules\.bin\detect-libc.ps1133530658367813724 0
 94C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\utils\src\generateBuildMetrics.js133541163593025935 0
-55C:\Users\46722\Desktop\Frondend-projekt\dist\index.html133541231671035880 0
+55C:\Users\46722\Desktop\Frondend-projekt\dist\index.html133541244764202322 0
 85C:\Users\46722\Desktop\Frondend-projekt\node_modules\tar-fs\test\fixtures\invalid.tar133541166333925868 0
 93C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\utils\src\generateCertificate.js133541163593045934 0
 88C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\utils\src\getModuleParts.js133541163593085945 0
@@ -7066,7 +7066,7 @@
 64C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\build133541166358778080 1
 72C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\build\Release133541166361698744 1
 88C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\build\Release\libvips-cpp.dll133161123960000000 0
-44C:\Users\46722\Desktop\Frondend-projekt\dist133541231671045863 1
+44C:\Users\46722\Desktop\Frondend-projekt\dist133541247397854393 1
 64C:\Users\46722\Desktop\Frondend-projekt\dist\books.6eea7857.jpeg133541166805389985 0
 62C:\Users\46722\Desktop\Frondend-projekt\dist\index.fae2d46f.js133541166805459994 0
 62C:\Users\46722\Desktop\Frondend-projekt\dist\index.7567e23c.js133541166805459994 0
@@ -7075,5 +7075,5 @@
 63C:\Users\46722\Desktop\Frondend-projekt\dist\index.edfb4aaa.css133541231670595763 0
 64C:\Users\46722\Desktop\Frondend-projekt\dist\books.fa4de325.jpeg133541231670705786 0
 77C:\Users\46722\Desktop\Frondend-projekt\dist\Frondend-projekt.59712999.js.map133541231670735800 0
-62C:\Users\46722\Desktop\Frondend-projekt\dist\index.aa69868b.js133541231670775799 0
-66C:\Users\46722\Desktop\Frondend-projekt\dist\index.aa69868b.js.map133541231670805814 0
+62C:\Users\46722\Desktop\Frondend-projekt\dist\index.aa69868b.js133541247397774378 0
+66C:\Users\46722\Desktop\Frondend-projekt\dist\index.aa69868b.js.map133541247397844397 0
