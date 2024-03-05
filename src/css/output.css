@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --point-color: #555;
   --size: 5px;
@@ -33,12 +32,12 @@ h1 {
   position: absolute;
   align-items: center;
   justify-content: center;
-  top: 80%; /* Justera detta värde efter behov för att flytta kontrollerna uppåt/nedåt */
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  gap: 10px; /* Ger lite utrymme mellan varje kontroll */
-  width: auto; /* Eller specificera en bredd om du vill ha en specifik bredd på dina kontroller */
+  gap: 10px;
+  width: auto;
 }
 
 #fetch-books, input[type=date], select {
@@ -93,15 +92,19 @@ h1 {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/photo-1596123068611-c89d922a0f0a.avif");
   height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
   width: 100%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
 }
 
 .hero-text {
@@ -112,6 +115,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  z-index: 1000;
 }
 
 #slideshowcontainer {
@@ -169,16 +173,17 @@ h1 {
   background-color: gray;
 }
 
-img {
+.book-image {
   margin: auto;
   display: flex;
   height: auto;
   width: 30%;
   min-width: 200px;
+  z-index: 2000;
 }
 
-img:hover {
-  transform: scale(2); /* Gör knappen 10% större */
+.book-image:hover {
+  transform: scale(2);
   transition: transform 0.8s;
 }
 

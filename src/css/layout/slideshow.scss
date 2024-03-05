@@ -50,15 +50,16 @@
     background-color: gray;
   }
 
-  img {
+  .book-image {
     margin: auto;
     display: flex;
     height: auto;
     width: 30%;
     min-width: 200px;
+    z-index: 2000;
 }
 
-img:hover {
+.book-image:hover {
     transform: scale(2);
     transition: transform 0.8s;
 }

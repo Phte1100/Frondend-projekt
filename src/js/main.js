@@ -44,10 +44,7 @@ async function displayBooks(books) {
         const bookItem = document.createElement('article');
         bookItem.innerHTML = `
         <div class="mySlides fade">
-        <picture>
-            <source srcset="${book.book_image}" type="image/avif" />
-            <source srcset="${book.book_image}" type="image/webp" />
-            <source srcset="${book.book_image}" type="image/jpeg" />
+        <picture class="bookimg">
             <img src="${book.book_image}" alt="${book.title}" class="book-image">
           </picture>
             <h2>${book.rank}. ${book.title}</h2>
@@ -64,9 +61,6 @@ async function displayBooks(books) {
         bookList.appendChild(bookItem);
     });
     showSlides(1);
-
-
-    
 }
 
 document.getElementById('slideshowcontainer').addEventListener('click', function(event) {
@@ -87,7 +81,6 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 
 function showSlides(n) {
     let slides = document.getElementsByClassName("mySlides");

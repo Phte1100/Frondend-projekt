@@ -1,21 +1,26 @@
-@use '../abstracts/mixins';
+@use '../abstracts/mixins' as mixins;
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/photo-1596123068611-c89d922a0f0a.avif");
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    position: relative;
-  }
+  height: 300px; 
+  width: 100%; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; 
+}
+
+.hero-image img {
+  width: 100%; 
+  height: auto; 
+  min-height: 100%; 
+  object-fit: cover; 
+}
   
   .hero-text {
     text-align: center;
     color: white;
-    @include absoluteCenter;
+    @include mixins.absoluteCenter;
     width: 100%;
+    z-index: 1000;
   }
   
