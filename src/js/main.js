@@ -54,7 +54,6 @@ async function displayBooks(books) {
             <ul class="dotlist">
                 <li><strong>Author:</strong> ${book.author}</li>
                 <li><strong>ISBN:</strong> ${book.primary_isbn13}</li>
-                <li><strong>Genre:</strong> ${bookInfo.genre}</li>
             </ul>
             <p>${book.description}</p>
             <a href="${bookInfo.previewLink || '#'}" target="_blank" class="preview-link">More about: ${book.title}</a>
