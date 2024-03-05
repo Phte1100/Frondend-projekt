@@ -1,0 +1,21 @@
+@use '../abstracts/mixins';
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/photo-1596123068611-c89d922a0f0a.avif");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: white;
+    @include absoluteCenter;
+    width: 100%;
+  }
+  

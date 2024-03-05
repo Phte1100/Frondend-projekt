@@ -1,0 +1,11 @@
+#controls {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px; 
+    width: auto; 
+}

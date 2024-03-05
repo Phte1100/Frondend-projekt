@@ -1,0 +1,185 @@
+@charset "UTF-8";
+:root {
+  --point-color: #555;
+  --size: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#text {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 3%;
+}
+
+h1 {
+  font-family: "Times New Roman";
+  font-weight: 600;
+  font-size: 68px;
+}
+
+.dotlist {
+  list-style-type: none;
+  padding: 0;
+}
+
+#controls {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 80%; /* Justera detta värde efter behov för att flytta kontrollerna uppåt/nedåt */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10px; /* Ger lite utrymme mellan varje kontroll */
+  width: auto; /* Eller specificera en bredd om du vill ha en specifik bredd på dina kontroller */
+}
+
+#fetch-books, input[type=date], select {
+  background-color: #FFFFFF;
+  border: 0;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#fetch-books:hover, input:hover, select:hover {
+  background-color: rgb(206, 212, 217);
+}
+
+.loader {
+  overflow: hidden;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100000;
+}
+
+.loader__element {
+  border-radius: 100%;
+  border: var(--size) solid var(--point-color);
+  margin: calc(var(--size) * 2);
+}
+
+.loader__element:nth-child(1) {
+  animation: preloader 0.3s ease-in-out alternate infinite;
+}
+
+.loader__element:nth-child(2) {
+  animation: preloader 0.3s ease-in-out alternate 0.1s infinite;
+}
+
+.loader__element:nth-child(3) {
+  animation: preloader 0.3s ease-in-out alternate 0.2s infinite;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/photo-1596123068611-c89d922a0f0a.avif");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#slideshowcontainer {
+  max-width: 600px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: 3%;
+  justify-content: center;
+  text-align: center;
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  z-index: 1000;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: gray;
+}
+
+img {
+  margin: auto;
+  display: flex;
+  height: auto;
+  width: 30%;
+  min-width: 200px;
+}
+
+img:hover {
+  transform: scale(2); /* Gör knappen 10% större */
+  transition: transform 0.8s;
+}
+
+/*# sourceMappingURL=output.css.map */

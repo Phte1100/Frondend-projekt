@@ -1,6 +1,10 @@
 "use strict";
 
 document.getElementById('fetch-books').addEventListener('click', async () => {
+    document.querySelector('.loader').style.display = 'flex';
+    document.getElementById('text').style.display = 'none';
+    document.getElementById('slideshowcontainer').innerHTML = '';
+    slideIndex = 1;
     const selectedDate = document.getElementById('date-picker').value;
     const selectedGenre = document.getElementById('genre-picker').value;
     const url = `https://api.nytimes.com/svc/books/v3/lists/${selectedDate}/${selectedGenre}.json?api-key=3gySNnE3Ly9D2zD3DEC9GroOYifGli9A`;
@@ -12,15 +16,17 @@ document.getElementById('fetch-books').addEventListener('click', async () => {
     } catch (error) {
         console.error('Det gick inte att hämta böckerna', error);
     }
+    finally {
+        // Dölj laddningsanimationen när processen är klar
+        document.querySelector('.loader').style.display = 'none';
+    }
 });
 
 async function displayBooks(books) {
     const bookList = document.getElementById('slideshowcontainer');
     bookList.innerHTML = ''; // Rensa tidigare innehåll
-
     // Sortera böckerna efter deras rank i stigande ordning
     const sortedBooks = books.sort((a, b) => a.rank - b.rank);
-
     // Skapa en array av promises för att hämta ytterligare information om varje bok
     const promises = sortedBooks.map(book =>
         fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${book.primary_isbn13}&key=AIzaSyCPduk_iSsjI6LaBiyVg0x6PDzT0Fa2uDo`)
@@ -29,6 +35,7 @@ async function displayBooks(books) {
 
     // Vänta på att alla promises ska lösas
     const results = await Promise.all(promises);
+    console.log(results);
 
     // Processa varje resultat och skapa en slide för varje bok
     results.forEach((googleBooksData, index) => {
@@ -37,54 +44,47 @@ async function displayBooks(books) {
         const bookItem = document.createElement('article');
         bookItem.innerHTML = `
         <div class="mySlides fade">
+        <picture>
+            <source srcset="${book.book_image}" type="image/avif" />
+            <source srcset="${book.book_image}" type="image/webp" />
+            <source srcset="${book.book_image}" type="image/jpeg" />
             <img src="${book.book_image}" alt="${book.title}" class="book-image">
+          </picture>
             <h2>${book.rank}. ${book.title}</h2>
-            <ul>
-                <li><strong>Författare:</strong> ${book.author}</li>
+            <ul class="dotlist">
+                <li><strong>Author:</strong> ${book.author}</li>
                 <li><strong>ISBN:</strong> ${book.primary_isbn13}</li>
+                <li><strong>Genre:</strong> ${bookInfo.genre}</li>
             </ul>
             <p>${book.description}</p>
-            <a href="${bookInfo.previewLink || '#'}" target="_blank" class="preview-link">Läs mer om ${book.title}</a>
+            <a href="${bookInfo.previewLink || '#'}" target="_blank" class="preview-link">More about: ${book.title}</a>
             <a class="prev">&#10094;</a>
             <a class="next">&#10095;</a>
         </div>
         `;
         bookList.appendChild(bookItem);
     });
-    showSlides(1); // Visa den första sliden
+    showSlides(1);
 
-    document.getElementById('slideshowcontainer').addEventListener('click', function(event) {
-        // Kontrollera om det klickade elementet har klassen 'prev'
-        if (event.target.classList.contains('prev')) {
-            plusSlides(-1); // Gå ett steg bakåt
-        }
-    
-        // Kontrollera om det klickade elementet har klassen 'next'
-        if (event.target.classList.contains('next')) {
-            plusSlides(1); // Gå ett steg framåt
-        }
-    });
-    
 
+    
 }
 
+document.getElementById('slideshowcontainer').addEventListener('click', function(event) {
+    // Kontrollera om det bakåt-pilen har klassen 'prev'
+    if (event.target.classList.contains('prev')) {
+        plusSlides(-1); // Gå ett steg bakåt
+    }
 
-
-
-/*
-function extractISBNs(books) {
-    return books.map(book => book.primary_isbn13);
-}
-*/
-
-// google books api: AIzaSyCPduk_iSsjI6LaBiyVg0x6PDzT0Fa2uDo
-// GET https://www.googleapis.com/books/v1/volumes?q=isbn:keyes&key=yourAPIKey
-// NY TIMES: 3gySNnE3Ly9D2zD3DEC9GroOYifGli9A
+    // Kontrollera om det klickade elementet har klassen 'next'
+    if (event.target.classList.contains('next')) {
+        plusSlides(1); // Gå ett steg framåt
+    }
+});
 
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -102,47 +102,3 @@ function showSlides(n) {
 
     slides[slideIndex - 1].style.display = "block"; // Visa den aktuella sliden
 }
-
-/*
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-    // Kontrollera och justera slideIndex innan visning
-    slideIndex += n;
-    showSlides(slideIndex);
-}
-
-function currentSlide(n) {
-    // Sätt slideIndex till det valda slidenumret och visa den sliden
-    slideIndex = n;
-    showSlides(slideIndex);
-}
-
-function showSlides(n) {
-    let slides = document.getElementsByClassName("mySlides");
-
-    // Kontrollera om det finns slides att visa
-    if (!slides.length) {
-        console.warn("Inga slides att visa.");
-        return;
-    }
-
-    // Återställa slideIndex om det är utanför det tillgängliga intervallet
-    if (n > slides.length) {
-        slideIndex = 1;
-    } else if (n < 1) {
-        slideIndex = slides.length;
-    }
-
-    // Dölja alla slides
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-
-    // Visa den aktuella sliden
-    // Använd slideIndex-1 eftersom array-index startar från 0
-    slides[slideIndex - 1].style.display = "block";
-}
-*/
