@@ -1,4 +1,4 @@
-7067
+7078
 83C:\Users\46722\Desktop\Frondend-projekt\node_modules\type-fest\ts41\kebab-case.d.ts133530658350609862 0
 107C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\workers\test\integration\workerfarm\logging.js133541163589875231 0
 81C:\Users\46722\Desktop\Frondend-projekt\node_modules\nth-check\lib\esm\index.d.ts133530658351260010 0
@@ -9,7 +9,7 @@
 87C:\Users\46722\Desktop\Frondend-projekt\node_modules\css-tree\lib\syntax\node\Atrule.js133530658357541412 0
 70C:\Users\46722\Desktop\Frondend-projekt\node_modules\commander\typings133530658348549400 1
 116C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\Lexer.js133530658355540968 0
-70C:\Users\46722\Desktop\Frondend-projekt\node_modules\@msgpackr-extract133541165007253996 1
+70C:\Users\46722\Desktop\Frondend-projekt\node_modules\@msgpackr-extract133541166361938798 1
 116C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\types.json133530658351540068 0
 78C:\Users\46722\Desktop\Frondend-projekt\node_modules\lines-and-columns\LICENSE133530658343058169 0
 109C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\path.js133530658353010402 0
@@ -114,7 +114,7 @@
 67C:\Users\46722\Desktop\Frondend-projekt\node_modules\dotenv\LICENSE133530658346288892 0
 90C:\Users\46722\Desktop\Frondend-projekt\node_modules\@swc\helpers\_\_sliced_to_array_loose133530658360011971 1
 73C:\Users\46722\Desktop\Frondend-projekt\node_modules\term-size\index.d.ts133530658348709436 0
-54C:\Users\46722\Desktop\Frondend-projekt\src\index.html133541126528064447 0
+54C:\Users\46722\Desktop\Frondend-projekt\src\index.html133541231656616241 0
 122C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic.js133530658354380708 0
 46C:\Users\46722\Desktop\Frondend-projekt\src\js133534214706840394 1
 90C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\lib\restructure\prepare\index.js133530658355650998 0
@@ -177,7 +177,7 @@
 93C:\Users\46722\Desktop\Frondend-projekt\node_modules\@swc\helpers\src\_is_native_function.mjs133530658361552315 0
 82C:\Users\46722\Desktop\Frondend-projekt\node_modules\htmlnano\lib\presets\safe.cjs133530658351800124 0
 129C:\Users\46722\Desktop\Frondend-projekt\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133530658367853726 0
-58C:\Users\46722\Desktop\Frondend-projekt\node_modules\@lmdb133541165007253996 1
+58C:\Users\46722\Desktop\Frondend-projekt\node_modules\@lmdb133541166361938798 1
 83C:\Users\46722\Desktop\Frondend-projekt\node_modules\js-yaml\lib\schema\failsafe.js133530658348749445 0
 79C:\Users\46722\Desktop\Frondend-projekt\node_modules\css-tree\cjs\syntax\config133530658357391390 1
 135C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeNonInheritableGroupAttrs.js133530658354280682 0
@@ -306,7 +306,7 @@
 86C:\Users\46722\Desktop\Frondend-projekt\node_modules\@lmdb\lmdb-win32-x64\package.json133530658343488265 0
 86C:\Users\46722\Desktop\Frondend-projekt\node_modules\domelementtype\lib\esm\index.d.ts133530658348629416 0
 110C:\Users\46722\Desktop\Frondend-projekt\node_modules\css-select\node_modules\dom-serializer\lib\index.d.ts.map133530658349069523 0
-57C:\Users\46722\Desktop\Frondend-projekt\node_modules\@img133541166330975213 1
+57C:\Users\46722\Desktop\Frondend-projekt\node_modules\@img133541166362028815 1
 73C:\Users\46722\Desktop\Frondend-projekt\node_modules\svgo\lib\svgo\coa.js133530658351540068 0
 103C:\Users\46722\Desktop\Frondend-projekt\node_modules\@babel\highlight\node_modules\ansi-styles\index.js133530658343788335 0
 78C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\namer-default\lib133541163606078862 1
@@ -319,7 +319,7 @@
 103C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\node_modules\css-tree\cjs\syntax\node\CDO.cjs133530658349399590 0
 75C:\Users\46722\Desktop\Frondend-projekt\node_modules\entities\lib\decode.js133530658347689206 0
 101C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\core\lib\requests\WriteBundlesRequest.js133541163611260042 0
-57C:\Users\46722\Desktop\Frondend-projekt\node_modules\@swc133541165007243996 1
+57C:\Users\46722\Desktop\Frondend-projekt\node_modules\@swc133541166361928790 1
 122C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\vendor\8.13.3\win32-x64\include\libgsf-1\gsf\gsf-infile-msvba.h133117882010000000 0
 71C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\node_modules133541166334482630 1
 100C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\node_modules\css-tree\cjs\walker\index.cjs133530658355070863 0
@@ -712,6 +712,7 @@
 83C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\node_modules\mdn-data\api133530658349569626 1
 120C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\index.js133530658354990850 0
 84C:\Users\46722\Desktop\Frondend-projekt\node_modules\caniuse-lite\data\regions\CH.js133541163589325113 0
+73C:\Users\46722\Desktop\Frondend-projekt\dist\Frondend-projekt.59712999.js133541231670695791 0
 59C:\Users\46722\Desktop\Frondend-projekt\node_modules\srcset133530658346688981 1
 71C:\Users\46722\Desktop\Frondend-projekt\node_modules\domelementtype\lib133530658348799456 1
 75C:\Users\46722\Desktop\Frondend-projekt\node_modules\css-tree\lib\convertor133530658358561643 1
@@ -3117,6 +3118,7 @@
 111C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\node_modules\css-tree\lib\syntax\node\TypeSelector.js133530658359471854 0
 84C:\Users\46722\Desktop\Frondend-projekt\node_modules\css-select\lib\general.d.ts.map133530658353450498 0
 79C:\Users\46722\Desktop\Frondend-projekt\node_modules\caniuse-lite\data\features133541163605438720 1
+63C:\Users\46722\Desktop\Frondend-projekt\dist\index.d2c7c6f3.css133541166805459994 0
 88C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\watcher-win32-x64\README.md133541163587124615 0
 84C:\Users\46722\Desktop\Frondend-projekt\node_modules\caniuse-lite\data\regions\FR.js133541163594916362 0
 102C:\Users\46722\Desktop\Frondend-projekt\node_modules\caniuse-lite\data\features\css-scroll-behavior.js133541163591665621 0
@@ -3285,7 +3287,7 @@
 114C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\node_modules\css-tree\cjs\syntax\function\expression.cjs133530658353100426 0
 115C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\glib\gvariant.h133117882010000000 0
 108C:\Users\46722\Desktop\Frondend-projekt\node_modules\@swc\helpers\cjs\_class_check_private_static_access.cjs133530658350509848 0
-62C:\Users\46722\Desktop\Frondend-projekt\dist\index.18dbc454.js133541166397316989 0
+62C:\Users\46722\Desktop\Frondend-projekt\dist\index.18dbc454.js133541230330770233 0
 74C:\Users\46722\Desktop\Frondend-projekt\node_modules\@lezer\common\LICENSE133530658343158190 0
 111C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\node_modules\css-tree\cjs\syntax\config\generator.cjs133530658353430489 0
 107C:\Users\46722\Desktop\Frondend-projekt\node_modules\csso\node_modules\css-tree\cjs\syntax\config\lexer.cjs133530658355180888 0
@@ -4120,7 +4122,7 @@
 105C:\Users\46722\Desktop\Frondend-projekt\node_modules\caniuse-lite\data\features\element-scroll-methods.js133541163594006154 0
 84C:\Users\46722\Desktop\Frondend-projekt\node_modules\caniuse-lite\data\regions\AS.js133541163587954817 0
 84C:\Users\46722\Desktop\Frondend-projekt\node_modules\caniuse-lite\data\regions\AT.js133541163588034818 0
-85C:\Users\46722\Desktop\Frondend-projekt\node_modules\tar-fs\test\fixtures\e\directory133541166332925650 1
+85C:\Users\46722\Desktop\Frondend-projekt\node_modules\tar-fs\test\fixtures\e\directory133541166333015667 1
 75C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\diagnostic\lib133541163606458952 1
 79C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\graph\lib\index.js133541163606608986 0
 99C:\Users\46722\Desktop\Frondend-projekt\node_modules\caniuse-lite\data\features\css-mediaqueries.js133541163591255529 0
@@ -5253,7 +5255,7 @@
 93C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\utils\src\dependency-location.js133541163592985922 0
 73C:\Users\46722\Desktop\Frondend-projekt\node_modules\.bin\detect-libc.ps1133530658367813724 0
 94C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\utils\src\generateBuildMetrics.js133541163593025935 0
-55C:\Users\46722\Desktop\Frondend-projekt\dist\index.html133541166397537047 0
+55C:\Users\46722\Desktop\Frondend-projekt\dist\index.html133541231671035880 0
 85C:\Users\46722\Desktop\Frondend-projekt\node_modules\tar-fs\test\fixtures\invalid.tar133541166333925868 0
 93C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\utils\src\generateCertificate.js133541163593045934 0
 88C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\utils\src\getModuleParts.js133541163593085945 0
@@ -6052,6 +6054,7 @@
 130C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\scope\selector.js133530658356841256 0
 126C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\vendor\8.13.3\win32-x64\include\libgsf-1\gsf\gsf-output-iochannel.h133117882010000000 0
 127C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\scope\value.js133530658357361373 0
+66C:\Users\46722\Desktop\Frondend-projekt\dist\index.7567e23c.js.map133541166805540012 0
 126C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\common133530658356881273 1
 130C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\matches.js133530658355811025 0
 134C:\Users\46722\Desktop\Frondend-projekt\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\nth-of-type.js133530658356241121 0
@@ -6488,7 +6491,7 @@
 94C:\Users\46722\Desktop\Frondend-projekt\node_modules\.bin\node-gyp-build-optional-packages.ps1133530658367833727 0
 64C:\Users\46722\Desktop\Frondend-projekt\node_modules\.bin\parcel133541163706821453 0
 64C:\Users\46722\Desktop\Frondend-projekt\node_modules\.bin\semver133530658367833727 0
-67C:\Users\46722\Desktop\Frondend-projekt\dist\index.edfb4aaa.css.map133541166397186955 0
+67C:\Users\46722\Desktop\Frondend-projekt\dist\index.edfb4aaa.css.map133541231670655782 0
 69C:\Users\46722\Desktop\Frondend-projekt\node_modules\pump\.travis.yml133541166333045677 0
 68C:\Users\46722\Desktop\Frondend-projekt\node_modules\.bin\semver.ps1133530658367833727 0
 106C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\vendor\8.13.3\win32-x64\include\libimagequant.h133117882010000000 0
@@ -6536,8 +6539,8 @@
 78C:\Users\46722\Desktop\Frondend-projekt\node_modules\tunnel-agent\package.json133541166332885633 0
 71C:\Users\46722\Desktop\Frondend-projekt\node_modules\simple-get\LICENSE133541166332895637 0
 96C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\node_modules\node-addon-api\nothing.c133541166332825621 0
-75C:\Users\46722\Desktop\Frondend-projekt\node_modules\tar-fs\test\fixtures\e133541166332925650 1
-71C:\Users\46722\Desktop\Frondend-projekt\node_modules\string_decoder\lib133541166332935668 1
+75C:\Users\46722\Desktop\Frondend-projekt\node_modules\tar-fs\test\fixtures\e133541166333335749 1
+71C:\Users\46722\Desktop\Frondend-projekt\node_modules\string_decoder\lib133541166333015667 1
 72C:\Users\46722\Desktop\Frondend-projekt\node_modules\readable-stream\lib133541166333615805 1
 98C:\Users\46722\Desktop\Frondend-projekt\node_modules\prebuild-install\node_modules\detect-libc\lib133541166333375748 1
 62C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\src133541166334135918 1
@@ -6636,7 +6639,7 @@
 70C:\Users\46722\Desktop\Frondend-projekt\node_modules\minimist\index.js133541166333685824 0
 91C:\Users\46722\Desktop\Frondend-projekt\node_modules\tar-fs\test\fixtures\d\sub-files\file4133541166333665810 0
 104C:\Users\46722\Desktop\Frondend-projekt\node_modules\readable-stream\lib\internal\streams\buffer_list.js133541166333695817 0
-66C:\Users\46722\Desktop\Frondend-projekt\dist\index.18dbc454.js.map133541166397356997 0
+66C:\Users\46722\Desktop\Frondend-projekt\dist\index.18dbc454.js.map133541230330810244 0
 67C:\Users\46722\Desktop\Frondend-projekt\node_modules\rc\test\ini.js133541166333705824 0
 83C:\Users\46722\Desktop\Frondend-projekt\node_modules\tar-fs\test\fixtures\d\sub-dir133541166333725827 1
 100C:\Users\46722\Desktop\Frondend-projekt\node_modules\readable-stream\lib\internal\streams\destroy.js133541166333725827 0
@@ -7063,6 +7066,14 @@
 64C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\build133541166358778080 1
 72C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\build\Release133541166361698744 1
 88C:\Users\46722\Desktop\Frondend-projekt\node_modules\sharp\build\Release\libvips-cpp.dll133161123960000000 0
-44C:\Users\46722\Desktop\Frondend-projekt\dist133541166397547044 1
-64C:\Users\46722\Desktop\Frondend-projekt\dist\books.fa4de325.jpeg133541166397086943 0
-63C:\Users\46722\Desktop\Frondend-projekt\dist\index.edfb4aaa.css133541166397156958 0
+44C:\Users\46722\Desktop\Frondend-projekt\dist133541231671045863 1
+64C:\Users\46722\Desktop\Frondend-projekt\dist\books.6eea7857.jpeg133541166805389985 0
+62C:\Users\46722\Desktop\Frondend-projekt\dist\index.fae2d46f.js133541166805459994 0
+62C:\Users\46722\Desktop\Frondend-projekt\dist\index.7567e23c.js133541166805459994 0
+67C:\Users\46722\Desktop\Frondend-projekt\dist\index.d2c7c6f3.css.map133541166805530012 0
+66C:\Users\46722\Desktop\Frondend-projekt\dist\index.fae2d46f.js.map133541166805530012 0
+63C:\Users\46722\Desktop\Frondend-projekt\dist\index.edfb4aaa.css133541231670595763 0
+64C:\Users\46722\Desktop\Frondend-projekt\dist\books.fa4de325.jpeg133541231670705786 0
+77C:\Users\46722\Desktop\Frondend-projekt\dist\Frondend-projekt.59712999.js.map133541231670735800 0
+62C:\Users\46722\Desktop\Frondend-projekt\dist\index.aa69868b.js133541231670775799 0
+66C:\Users\46722\Desktop\Frondend-projekt\dist\index.aa69868b.js.map133541231670805814 0
