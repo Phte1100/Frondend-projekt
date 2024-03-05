@@ -104,6 +104,12 @@ h1 {
   animation: .3s ease-in-out .2s infinite alternate preloader;
 }
 
+@keyframes preloader {
+  100% {
+    transform: scale(2);
+  }
+}
+
 .hero-image {
   justify-content: center;
   width: 100%;

@@ -19,4 +19,6 @@
   .loader__element:nth-child(2) { animation: preloader .3s ease-in-out alternate .1s infinite; }
   .loader__element:nth-child(3) { animation: preloader .3s ease-in-out alternate .2s infinite; }
   
-  
+  @keyframes preloader {
+    100% { transform: scale(2); }
+  }
