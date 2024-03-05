@@ -28,7 +28,6 @@ async function displayBooks(books) {
     const promises = sortedBooks.map((book)=>fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${book.primary_isbn13}&key=AIzaSyCPduk_iSsjI6LaBiyVg0x6PDzT0Fa2uDo`).then((response)=>response.json()));
     // Vänta på att alla promises ska lösas
     const results = await Promise.all(promises);
-    console.log(results);
     // Processa varje resultat och skapa en slide för varje bok
     results.forEach((googleBooksData, index)=>{
         const book = sortedBooks[index];

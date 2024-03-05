@@ -36,7 +36,6 @@ async function displayBooks(books) {
 
     // Vänta på att alla promises ska lösas
     const results = await Promise.all(promises);
-    console.log(results);
 
     // Processa varje resultat och skapa en slide för varje bok
     results.forEach((googleBooksData, index) => {
