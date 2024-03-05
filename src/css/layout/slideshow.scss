@@ -7,6 +7,9 @@
     margin-top: 3%;
     justify-content: center;
     text-align: center;
+    margin-bottom: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
   
   .mySlides {
@@ -59,9 +62,9 @@
     z-index: 2000;
 }
 
-.book-image:hover {
+@media only screen and (min-width: 978px) {
+  .book-image:hover {
     transform: scale(2);
     transition: transform 0.8s;
 }
-
-  
+}

@@ -4,6 +4,12 @@ h1 {
     font-size: 68px;
   }
 
+  @media only screen and (max-width: 650px) {
+    h1 {
+      font-size: 45px;
+    }
+  }
+
   .dotlist {
     list-style-type: none;
     padding: 0;
