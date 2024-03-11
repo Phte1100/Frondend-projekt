@@ -1,12 +1,44 @@
+@use '../abstracts/mixins' as mixins;
+
 h1 {
     font-family: 'Times New Roman';
     font-weight: 600;
     font-size: 68px;
   }
 
+  h2 {
+  font-family: 'Leto';
+  font-size: 35px;
+  font-weight: 600;
+}
+
+a, p, li, #footer {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: 600;
+}
+
+#footer {
+  font-size: 14px;
+  color: #696969;
+  text-align: center;
+  bottom: 0;
+  @include mixins.absoluteCenter;
+  top: 95%;
+  margin: auto;
+  position: absolute;
+}
+
   @media only screen and (max-width: 650px) {
     h1 {
       font-size: 45px;
+      padding: 0%;
+      margin: 0%;
     }
   }
 

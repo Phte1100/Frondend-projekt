@@ -24,6 +24,8 @@ h1 {
 
 @media only screen and (width <= 650px) {
   h1 {
+    margin: 0%;
+    padding: 0%;
     font-size: 45px;
   }
 }
@@ -47,6 +49,7 @@ h1 {
 
 @media only screen and (width <= 650px) {
   #controls {
+    z-index: 2300;
     flex-direction: column;
     display: flex;
     top: 65%;
@@ -129,7 +132,6 @@ h1 {
 .hero-text {
   text-align: center;
   color: #fff;
-  z-index: 1000;
   width: 100%;
   position: absolute;
   top: 50%;

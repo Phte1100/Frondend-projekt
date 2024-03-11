@@ -14,6 +14,7 @@
     #controls {
         display: flex;
       flex-direction: column;
-      top: 65%; 
+      top: 65%;
+      z-index: 2300;
     }
   }

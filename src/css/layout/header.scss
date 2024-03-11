@@ -23,7 +23,6 @@
     color: white;
     @include mixins.absoluteCenter;
     width: 100%;
-    z-index: 1000;
   }
   
   @media only screen and (max-width: 650px) {
